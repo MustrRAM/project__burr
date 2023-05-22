@@ -395,8 +395,9 @@ main{
 }
 
 .map__location{
+    box-shadow: 0px 0px 4px 0px;
     border-radius: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 
