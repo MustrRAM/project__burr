@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- Connect slider -->
+        <link   rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <!-- Connect fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Prata:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,700,800,900" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
@@ -20,7 +24,7 @@
             <div class="container">
                 <div class="header__inner">
                     <a href="" class="logo">
-                        Bur
+                        <img src="image/header/logotip.svg" alt="" class="logo__img" >
                     </a>
                     <nav class="menu">
                         <ul class="menu__list">
@@ -35,8 +39,13 @@
                                 </a>
                             </li>
                             <li class="menu__list-item">
-                                <span>Контакты</span>
                                 <a href="" class="menu__list-link">
+                                   Кемпинг
+                                </a>
+                            </li>
+                            <li class="menu__list-item">
+                                <span>Контакты</span>
+                                <a href="" class="menu__list-link link__nam-color">
                                     +7 (928) 500-58-33
                                 </a>
                             </li>
@@ -46,7 +55,129 @@
             </div><!-- /.container -->
         </header>
         <main class="main">
-            sdsadsd
+            <section class="top">
+                <div class="container">
+                    <div class="top__title">
+                        <div class="top__suptitle">
+                            База отдыха в Дагестане <br>
+                            <p>Бурревестник</p>
+                        </div>
+                        <ul class="top__subtitle">
+                            <li>База отдыха для кемпинга "Бурревестник" находится на берегу Каспийского моря </li>
+                            <li>Запоминающийся отдых</li>
+                            <li>Красивейшие виды</li>
+                        </ul>
+                    </div><!-- top__title -->
+                </div><!-- /.container -->
+            </section><!-- top -->
+            <div class="slider">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide-before" style="background-image: url(image/header/fone.png);"></div>
+                        <div class="swiper-slide swiper-slide-before" style="background-image: url(image/header/fon.jpg);"></div>
+                        <div class="swiper-slide swiper-slide-before" style="background-image: url(image/header/fon.png);"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div><!-- /.swiper -->
+            </div><!-- /.slider -->
+            <section class="about-us">
+                <div class="container">
+                    <div class="section__title">
+                       <a href="">О нас</a>
+                    </div>
+                    <div class="about-us__holder">
+                        <div class="about-us__holder-image">
+                            <img src="image/main/about1.jpg" alt="">
+                            <img src="image/main/about2.jpg" alt="">
+                        </div>
+                        <div class="about-us__holder-title">
+                            <div class="about-us__holder-suptitle">
+                                База Бурревестник в Дербентском районе, где это и что тут делать?
+                            </div>
+                            <br>
+                            <div class="about-us__holder-subtitle">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia fugiat repudiandae eos et ipsa incidunt dolorum corrupti recusandae labore quos quasi deserunt, fugit non iusto tenetur eligendi ullam quaerat consectetur?</p> <br>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa et omnis dolore aspernatur cum assumenda beatae dolorem, labore asperiores quibusdam velit explicabo dicta voluptatum expedita ullam modi, nesciunt nostrum accusamus!</p>
+                            </div>
+                        </div><!-- /.about-us__holder-title -->
+                    </div><!-- /.about-us__holder -->
+                </div><!-- /.container -->
+                <div class="desc__work">
+                    <div class="desc__work-name">
+                        <a href="">Развитие базы:</a>
+                    </div>
+                    <div class="desc__work-holder">
+                        <div class="desc__work-image__block">
+                            <div class="desc__work-image flex-first">
+                                <img class="desc__work-img" src="image/main/work.jpg" alt="">
+                                <img class="desc__work-img" src="image/main/work2.jpg" alt="">
+                            </div>
+                            <div class="desc__work-image flex-second">
+                                <img class="desc__work-img" src="image/main/work3.jpg" alt="">
+                                <img class="desc__work-img" src="image/main/work6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="desc__work-text">
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore sunt, distinctio repellat iure aliquam, fugit quo, eaque itaque vero adipisci doloribus veritatis quae aut similique eveniet corrupti aspernatur dolores quia!</span>
+                        </div>
+                        <div class="desc__work-image__block">
+                            <div class="desc__work-image flex-first">
+                                <img class="desc__work-img" src="image/main/work.jpg" alt="">
+                                <img class="desc__work-img" src="image/main/work2.jpg" alt="">
+                            </div>
+                            <div class="desc__work-image flex-second">
+                                <img class="desc__work-img" src="image/main/work3.jpg" alt="">
+                                <img class="desc__work-img" src="image/main/work6.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="map">
+                <div class="container">
+                    <div class="map__title">
+                        Наше местоположение:
+                    </div>
+                    <div class="map__container">
+                        <ul class="map__list">
+                            <li class="map__item title-item">
+                                Расстояние:
+                            </li>
+                            <li class="map__item">
+                                Дербент - 18 км
+                            </li>
+                            <li class="map__item">
+                                Махачкала – 149 км
+                            </li>
+                            <li class="map__item">
+                                Грозный – 310 км
+                            </li>
+                            <li class="map__item">
+                                Краснодар – 970 км
+                            </li>
+                            <li class="map__item">
+                                Ростов-на-Дону – 1050 км
+                            </li>
+                            <li class="map__item">
+                                Волгоград – 1040 км
+                            </li>
+                            <li class="map__item">
+                                Воронеж – 1610 км
+                            </li>
+                            <li class="map__item">
+                                Москва – 2010 км
+                            </li>
+                            <li class="map__item">
+                                Санкт-Петербург – 2730 км
+                            </li>
+                            <li class="map__item">
+                                Астрахань – 690 км
+                            </li>
+                        </ul>
+                        <iframe class="map__location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11871.892553423633!2d48.3837526396709!3d41.93642857473436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4049cfca2d4b69e5%3A0x2565ce3ec9e4d230!2z0JTQtdGA0LHQtdC90YIg0KDRg9Cx0LDRgSDQvtGC0LXQu9GMINC4INC60LXQvNC_0LjQvdCz!5e0!3m2!1sru!2str!4v1684760298921!5m2!1sru!2str" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div><!-- /.container -->
+            </section>
         </main>
         <footer class="footer">
             <div class="container">
@@ -67,5 +198,7 @@
             </div><!-- /.container -->
         </footer>
     </div><!-- /.wrapper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/swiper-1.js"></script>
 </body>
 </html>
